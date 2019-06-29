@@ -7,29 +7,35 @@ import com.assignment.Exception.JobCircularDependencyException;
 import com.assignment.Exception.SelfDependencyException;
 import com.assignment.Graph.Graph;
 
-public class Jobs {
+public class JobsManager {
 
     private Graph jobGraph;
 
-    public Jobs (List<String> jobsList) throws SelfDependencyException {
+    public JobsManager(List<String> jobsList) throws SelfDependencyException {
         jobGraph = new Graph();
+        processJobsList(jobsList);
+    }
 
+    private void processJobsList (List<String> jobsList) throws SelfDependencyException {
         for (String job : jobsList) {
             String[] chars = job.split(" => ");
             Character firstJob = chars[0].charAt(0);
-            Character secondJob = chars[1].charAt(0);
+            Character secondJob = chars.length > 1 ? chars[1].charAt(0) : null;
 
-            addEdge(firstJob, secondJob);
+            addJobs(firstJob, secondJob);
         }
     }
 
-    private void addEdge(Character start, Character end) throws SelfDependencyException {
+    private void addJobs(Character start, Character end) throws SelfDependencyException {
 
         if (start.equals(end)) {
             throw new SelfDependencyException();
         }
-
-        jobGraph.addEdge(start - 'a', end - 'a');
+        if (end == null) {
+            jobGraph.addVertice(start - 'a');
+        } else {
+            jobGraph.addEdge(start - 'a', end - 'a');
+        }
     }
 
     public List<Character> getJobOrder() throws JobCircularDependencyException {

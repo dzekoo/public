@@ -9,19 +9,23 @@ import java.util.Stack;
 
 public class Graph {
 
-    private final int MAX_JOB = 5000;
+    private final int MAX_VERTICES = 100;
     private final LinkedList<Integer>[] adjList;
 
     public Graph() {
-        adjList = new LinkedList[MAX_JOB];
-        for (int itr = 0; itr < MAX_JOB; itr++)
-        {
-            adjList[MAX_JOB] = new LinkedList<>();
-        }
+        adjList = new LinkedList[MAX_VERTICES];
     }
 
     public void addEdge(int start, int end) {
+        addVertice(start);
+        addVertice(end);
         adjList[start].add(end);
+    }
+
+    public void addVertice(int vertice) {
+        if (adjList[vertice] == null) {
+            adjList[vertice] = new LinkedList<>();
+        }
     }
 
     private int getVerticesCount() {
@@ -36,7 +40,11 @@ public class Graph {
 
         visited[currentVertex] = true;
 
-        for (int adjacentVertex : adjList[currentVertex])
+        LinkedList<Integer> list = adjList[currentVertex];
+        if (list == null)
+            return;
+
+        for (int adjacentVertex : list)
         {
             if (!visited[adjacentVertex])
             {
