@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7092c913-83e2-42be-be9e-7cdc5f3cbd46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/public/com/assignment/Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/public/com/assignment/Graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/public/com/assignment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/public/com/assignment/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/public/test/AssignmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/public/test/AssignmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -70,10 +69,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="59" />
+            <state relative-caret-position="600">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +129,6 @@
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/Job.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/JobGraph.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Graph/JobGraph.java" />
-        <option value="$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java" />
-        <option value="$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Exception/CircularDepndencyException.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/JobsManager.java" />
@@ -117,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java" />
       </list>
     </option>
   </component>
@@ -186,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.AssignmentTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assignment.Main" />
       <module name="public" />
@@ -265,8 +286,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AssignmentTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AssignmentTest.CircularDependencyTest" />
         <item itemvalue="JUnit.AssignmentTest.SampleTest4" />
         <item itemvalue="JUnit.AssignmentTest.SelfDependencyTest" />
@@ -287,9 +308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 39m 00s.xml">
-      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssignmentTest - 2019.06.29 at 20h 41m 59s.xml">
       <configuration name="AssignmentTest" configurationId="JUnit" />
     </history-entry>
@@ -315,6 +333,9 @@
       <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AssignmentTest - 2019.06.29 at 21h 05m 51s.xml">
+      <configuration name="AssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest - 2019.06.29 at 21h 28m 09s.xml">
       <configuration name="AssignmentTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -379,17 +400,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/JobNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -401,17 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,16 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -475,6 +464,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
