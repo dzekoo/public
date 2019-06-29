@@ -1,5 +1,7 @@
 package com.assignment.Graph;
 
+import com.assignment.Exception.CircularDepndencyException;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,8 +12,7 @@ public class Graph {
     private final int MAX_JOB = 5000;
     private final LinkedList<Integer>[] adjList;
 
-    public Graph()
-    {
+    public Graph() {
         adjList = new LinkedList[MAX_JOB];
         for (int itr = 0; itr < MAX_JOB; itr++)
         {
@@ -19,19 +20,20 @@ public class Graph {
         }
     }
 
-    public void addEdge(int start, int end)
-    {
+    public void addEdge(int start, int end) {
         adjList[start].add(end);
     }
 
-    private int getVerticesCount()
-    {
+    private int getVerticesCount() {
         return adjList.length;
     }
 
-    private void getTopologicalOrderUtil(int currentVertex, boolean[] visited,
-                                     Stack<Integer> stack)
-    {
+    private void getTopologicalOrderUtil(int currentVertex, boolean[] visited, Stack<Integer> stack) throws CircularDepndencyException {
+
+        if (stack.contains(currentVertex)) {
+            throw new CircularDepndencyException();
+        }
+
         visited[currentVertex] = true;
 
         for (int adjacentVertex : adjList[currentVertex])
@@ -45,8 +47,7 @@ public class Graph {
         stack.push(currentVertex);
     }
 
-    public List<Character> getTopologicalOrder()
-    {
+    public List<Character> getTopologicalOrder() throws CircularDepndencyException{
         Stack<Integer> stack = new Stack<>();
 
         boolean[] visited = new boolean[getVerticesCount()];
