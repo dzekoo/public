@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7092c913-83e2-42be-be9e-7cdc5f3cbd46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AssignmentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/JobsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="142">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,17 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+            <state relative-caret-position="409">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,51 +56,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="418">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/CircularDepndencyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +77,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>job</find>
+      <find>getVerticesCount</find>
+      <find>getVerticesCou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,8 +97,10 @@
         <option value="$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Exception/CircularDepndencyException.java" />
-        <option value="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/Jobs/JobsManager.java" />
+        <option value="$PROJECT_DIR$/src/test/AssignmentTest.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -170,13 +133,6 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="public" type="b2602c69:ProjectViewProjectNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="Exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="public" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +183,96 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.AssignmentTest">
+    <configuration name="AssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentTest.CircularDependencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
+      <option name="METHOD_NAME" value="CircularDependencyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentTest.SampleTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
+      <option name="METHOD_NAME" value="SampleTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentTest.SampleTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
+      <option name="METHOD_NAME" value="SampleTest4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignmentTest.SelfDependencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
+      <option name="METHOD_NAME" value="SelfDependencyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AssignmentTest" />
+        <item itemvalue="JUnit.AssignmentTest.CircularDependencyTest" />
+        <item itemvalue="JUnit.AssignmentTest.SampleTest4" />
+        <item itemvalue="JUnit.AssignmentTest.SelfDependencyTest" />
+        <item itemvalue="JUnit.AssignmentTest.SampleTest3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -240,21 +286,54 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AssignmentTest_SelfDependencyTest - 2019.06.29 at 20h 28m 42s.xml">
+      <configuration name="AssignmentTest.SelfDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 29m 50s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 39m 00s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest - 2019.06.29 at 20h 41m 59s.xml">
+      <configuration name="AssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 45m 24s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 46m 38s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_SampleTest4 - 2019.06.29 at 20h 48m 47s.xml">
+      <configuration name="AssignmentTest.SampleTest4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 54m 43s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest - 2019.06.29 at 20h 54m 53s.xml">
+      <configuration name="AssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 21h 04m 55s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,15 +350,34 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>list</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result.indexOf('b')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/JobNode.java" />
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/SelfDependencyException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -292,20 +390,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/JobCircularDependencyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -316,7 +425,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Exception/CircularDepndencyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
@@ -326,26 +435,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/JobsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        <state relative-caret-position="142">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Jobs/Jobs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="418">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,22 +19,22 @@ public class JobsManager {
     private void processJobsList (List<String> jobsList) throws SelfDependencyException {
         for (String job : jobsList) {
             String[] chars = job.split(" => ");
-            Character firstJob = chars[0].charAt(0);
-            Character secondJob = chars.length > 1 ? chars[1].charAt(0) : null;
+            Character firstjob = chars[0].charAt(0);
+            Character DependeeJob = chars.length > 1 ? chars[1].charAt(0) : null;
 
-            addJobs(firstJob, secondJob);
+            addJobs(firstjob, DependeeJob);
         }
     }
 
-    private void addJobs(Character start, Character end) throws SelfDependencyException {
+    private void addJobs(Character job, Character DependeeJob) throws SelfDependencyException {
 
-        if (start.equals(end)) {
+        if (job.equals(DependeeJob)) {
             throw new SelfDependencyException();
         }
-        if (end == null) {
-            jobGraph.addVertice(start - 'a');
+        if (DependeeJob == null) {
+            jobGraph.addVertice(job - 'a');
         } else {
-            jobGraph.addEdge(start - 'a', end - 'a');
+            jobGraph.addEdge(DependeeJob - 'a', job - 'a');
         }
     }
 

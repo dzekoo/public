@@ -32,13 +32,17 @@ public class Graph {
         return adjList.length;
     }
 
-    private void getTopologicalOrderUtil(int currentVertex, boolean[] visited, Stack<Integer> stack) throws CircularDepndencyException {
+    private void getTopologicalOrderUtil(int currentVertex, boolean[] visited, Stack<Integer> stack, boolean[] recStack) throws CircularDepndencyException {
 
-        if (stack.contains(currentVertex)) {
+        if (recStack[currentVertex]) {
             throw new CircularDepndencyException();
         }
 
+        if (visited[currentVertex])
+            return;
+
         visited[currentVertex] = true;
+        recStack[currentVertex] = true;
 
         LinkedList<Integer> list = adjList[currentVertex];
         if (list == null)
@@ -46,29 +50,29 @@ public class Graph {
 
         for (int adjacentVertex : list)
         {
-            if (!visited[adjacentVertex])
-            {
-                getTopologicalOrderUtil(adjacentVertex, visited, stack);
-            }
+            getTopologicalOrderUtil(adjacentVertex, visited, stack,recStack);
         }
 
         stack.push(currentVertex);
+        recStack[currentVertex] = false;
     }
 
     public List<Character> getTopologicalOrder() throws CircularDepndencyException{
         Stack<Integer> stack = new Stack<>();
 
-        boolean[] visited = new boolean[getVerticesCount()];
+        boolean[] visited = new boolean[MAX_VERTICES];
+        boolean[] recStack = new boolean[MAX_VERTICES];
         for (int itr = 0; itr < getVerticesCount(); itr++)
         {
             visited[itr] = false;
+            recStack[itr] = false;
         }
 
-        for (int itr = 0; itr < getVerticesCount(); itr++)
+        for (int itr = 0; itr < MAX_VERTICES; itr++)
         {
-            if (!visited[itr])
+            if (!visited[itr] && adjList[itr] != null)
             {
-                getTopologicalOrderUtil(itr, visited, stack);
+                getTopologicalOrderUtil(itr, visited, stack, recStack);
             }
         }
 
