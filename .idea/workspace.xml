@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7092c913-83e2-42be-be9e-7cdc5f3cbd46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AssignmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/public/com/assignment/Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/public/com/assignment/Graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/public/test/AssignmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/public/test/AssignmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/assignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/assignment/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="345">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
@@ -56,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="267">
+              <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/com/assignment/Jobs/JobsManager.java" />
         <option value="$PROJECT_DIR$/src/test/AssignmentTest.java" />
         <option value="$PROJECT_DIR$/src/com/assignment/Graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/assignment/Main.java" />
       </list>
     </option>
   </component>
@@ -183,7 +188,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AssignmentTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.Main" />
+      <module name="public" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="public" />
       <extension name="coverage">
@@ -210,22 +228,6 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
       <option name="METHOD_NAME" value="CircularDependencyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssignmentTest.SampleTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="public" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AssignmentTest" />
-      <option name="METHOD_NAME" value="SampleTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.AssignmentTest" />
         <item itemvalue="JUnit.AssignmentTest.CircularDependencyTest" />
         <item itemvalue="JUnit.AssignmentTest.SampleTest4" />
         <item itemvalue="JUnit.AssignmentTest.SelfDependencyTest" />
-        <item itemvalue="JUnit.AssignmentTest.SampleTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -287,12 +289,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssignmentTest_SelfDependencyTest - 2019.06.29 at 20h 28m 42s.xml">
-      <configuration name="AssignmentTest.SelfDependencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 29m 50s.xml">
-      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 20h 39m 00s.xml">
       <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
     </history-entry>
@@ -317,6 +313,12 @@
     <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 21h 04m 55s.xml">
       <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AssignmentTest_CircularDependencyTest - 2019.06.29 at 21h 05m 45s.xml">
+      <configuration name="AssignmentTest.CircularDependencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssignmentTest - 2019.06.29 at 21h 05m 51s.xml">
+      <configuration name="AssignmentTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -332,8 +334,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -445,16 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/assignment/Graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -464,6 +449,26 @@
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/AssignmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/assignment/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
